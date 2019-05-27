@@ -1,24 +1,701 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="173c3443-f6ff-4731-b36f-eaf4c2493a1b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/junit_4_12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BricksFallingWhenHit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/NumberofIslandsII.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NewAlgotithmPractice.iml" beforeDir="false" afterPath="$PROJECT_DIR$/NewAlgotithmPractice.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newACM/AccountsMerge.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newACM/AddOne.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newACM/AddTwoNumbers2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newACM/AlienDictionary.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newACM/AllOOneDataStructure$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newACM/AllOOneDataStructure.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newACM/AndroidUnlockPatterns.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newACM/BackspaceStringCompare.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newACM/BasicCalculatorII.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newACM/BasicCalculatorIII.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newACM/BinarySearchDifferentForm.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newACM/BoyerMooreSubStringSearch.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newACM/Braces.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newACM/CanIWin.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newACM/CoinChange.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newACM/ComparatorVSLamda.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newACM/CountOfRangeSum.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newACM/CountOfSmallerThanItself$Ftree.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newACM/CountOfSmallerThanItself.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newACM/CustomSortString.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newACM/DiameterOfTree.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newACM/DivideTwoIntegers.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newACM/EvaluateDivision$Entry.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newACM/EvaluateDivision.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newACM/ExclusiveTimeOfFunctions$Event.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newACM/ExclusiveTimeOfFunctions.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newACM/ExpressionAddOperators.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newACM/FindDifference.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newACM/FindKthLargest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newACM/FindRedundantConnection.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newACM/FriendCircle$UF.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newACM/FriendCircle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newACM/FriendsOfAppropriateAges.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newACM/GeneralizedAbbreviation.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newACM/GroupAnagrams.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newACM/HandsOfStraights.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newACM/HashMapWithExp$Entry.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newACM/HashMapWithExp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newACM/HunGarianBipartiteGraph.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newACM/InsertIntoCyclicSortedList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newACM/Integer2EnglishWords.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newACM/Interval/Interval.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newACM/Interval/Position.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newACM/IsValidSerialization.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newACM/JudgePoint24.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newACM/KEmptySlots.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newACM/KMP.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newACM/KnightProbability.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newACM/Kthsmallest378$element.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newACM/Kthsmallest378.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newACM/LRU$KeyAgePair.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newACM/LRU.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newACM/LRUCache$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newACM/LRUCache.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newACM/LargestBSTSubTree.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newACM/LetterLog.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newACM/ListNode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newACM/LongestIncreasingSubsequence.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newACM/LongestLine.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newACM/LongestSubstringWithAtLeastKRepeatingCharacters.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newACM/LongestValidParenthesis.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newACM/MSD_Sort.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newACM/Map_Consumer_BIFunction$Pair.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newACM/Map_Consumer_BIFunction.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newACM/MaxAreaOfIsland.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newACM/MaxConsecutiveOnesIII.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newACM/MaxPointsOnALine$Slope.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newACM/MaxPointsOnALine.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newACM/MaxSumOfNonOverlappingSubarry.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newACM/MaximumDiffInAnArray.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newACM/MaximumWidthRamp$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newACM/MaximumWidthRamp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newACM/MaximusSum3NonOverlappingSubarrays.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newACM/MedianFinder$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newACM/MedianFinder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newACM/MergeKSortedList$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newACM/MergeKSortedList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newACM/MinCostToHireWorkers$Worker.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newACM/MinCostToHireWorkers.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newACM/MinTotalDistance.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newACM/MinimumWindowSubstring.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newACM/MostCommonWord$NV.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newACM/MostCommonWord$Trie$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newACM/MostCommonWord$Trie.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newACM/MostCommonWord.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newACM/MostStonesRemovedWithSameRow$UF.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newACM/MostStonesRemovedWithSameRow.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newACM/MultiplyStrings.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newACM/NQueen.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newACM/NQueensII.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newACM/NextClosestTime.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newACM/NthUglyNum.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newACM/NumberOfLongestIncreasingSubsequence.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newACM/OOPS$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newACM/OOPS.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newACM/OddEvenJump.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newACM/OptimalAccountBalancing.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newACM/Palindrome_Number.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newACM/PathSum1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newACM/PermutationSequence$Color.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newACM/PermutationSequence$MYLIST.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newACM/PermutationSequence.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newACM/PermutationsII.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newACM/Practice.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newACM/Rabin_Karp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newACM/RandomPickIndex.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newACM/RandomizedSet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newACM/RecentCounter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newACM/ReconstructItinerary.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newACM/RegexMatch.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newACM/RegularExpressionMatching$Bag$ListIterator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newACM/RegularExpressionMatching$Bag$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newACM/RegularExpressionMatching$Bag.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newACM/RegularExpressionMatching$Digraph.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newACM/RegularExpressionMatching$DirectedDFS.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newACM/RegularExpressionMatching$RegexMatch.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newACM/RegularExpressionMatching.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newACM/RemoveComments.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newACM/ReorganizeString$pair.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newACM/ReorganizeString.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newACM/ReverseLinkedList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newACM/ReversePairs.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newACM/RobotRoomCleaner.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newACM/SETI_Compress.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newACM/ShakeHandsTable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newACM/ShortestDistanceFromAllBuildings.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newACM/ShortestSubarrayWithSumAtLeastK$pair.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newACM/ShortestSubarrayWithSumAtLeastK.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newACM/SimilarRGB.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newACM/SnakeGame.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newACM/Solution.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newACM/SortTransformedArray.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newACM/SparseMatrixMultiplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newACM/StringST$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newACM/StringST$helper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newACM/StringST.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newACM/SubarraySum.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newACM/SuperUglyNumber$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newACM/SuperUglyNumber.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newACM/TicTacToe.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newACM/TopKFrequentElements$Entry.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newACM/TopKFrequentElements.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newACM/Tree/FenwickTree.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newACM/Tree/ListNode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newACM/Tree/NaryTreeNode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newACM/Tree/RecoverBinarySearchTree.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newACM/Tree/TreeNode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newACM/Trie$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newACM/Trie.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newACM/TrieST$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newACM/TrieST.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newACM/Utilities/Timer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newACM/ValidAddress.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newACM/VertivalOrder$TraverseNode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newACM/VertivalOrder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newACM/WildcardMatching.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newACM/addBinary.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newACM/add_Two_Numbers.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newACM/atoi.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newACM/buildTreePreAndIn.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newACM/cloneGraph.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newACM/combinationSum2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newACM/combinations.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newACM/decodeWays.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newACM/editDistance.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newACM/findMedianSortedArrays.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newACM/flatten.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newACM/fourSum.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newACM/graph/Digraph.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newACM/graph/DirectedDFS.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newACM/graph/Point.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newACM/graph/UndirectedGraphNode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newACM/largestRectangleArea.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newACM/lengthOfLongestSubstring.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newACM/letterCombinations.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newACM/longestPalindrome.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newACM/maxArea.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newACM/maxSubArray.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newACM/mergeInteval$myComp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newACM/mergeInteval.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newACM/mergeKLists$nodeComparator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newACM/mergeKLists.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newACM/mergeTwoLists.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newACM/minimumPathSum.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newACM/minimumTotal.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newACM/parenthesesValid$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newACM/parenthesesValid.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newACM/pascalTriangle1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newACM/permute.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newACM/pertumate.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newACM/plusOne.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newACM/preorderTraversal.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newACM/removeDuplicates.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newACM/removeDuplicatesFromSortedArray2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newACM/removeNthFromEnd.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newACM/reverseInteger.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newACM/sameTree.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newACM/search2DMatrix.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newACM/searchInRotatedSortedArray.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newACM/searchRange.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newACM/simplifyPath.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newACM/sort/quickSort.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newACM/sort/topBottomMergeSort.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newACM/sortedListToBST.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newACM/spiralOrder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newACM/strStr.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newACM/stringMultiply.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newACM/subSets.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newACM/threeSum.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newACM/threeSumClosest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newACM/treeTraverse.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newACM/two_sum.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newACM/two_sum_correct.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newACM/validParlindrome.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newACM/wiggleSort.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newACM/wordLadder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newACM/zigZag.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MaximumDiffInAnArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MaximumDiffInAnArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/OddEvenJump.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/OddEvenJump.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Palindrome_Number.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Palindrome_Number.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/RegexMatch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/RegexMatch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/RegularExpressionMatching.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/RegularExpressionMatching.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SubarraySum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SubarraySum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/maxArea.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/maxArea.java" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/NumberofIslandsII.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="220">
+              <caret line="11" column="8" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/BS_ArrayHolesFind.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1364">
+              <caret line="62" selection-start-line="62" selection-end-line="62" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/OddEvenJump.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="194">
+              <caret line="245" column="38" selection-start-line="245" selection-start-column="38" selection-end-line="245" selection-end-column="38" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/BricksFallingWhenHit.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1408">
+              <caret line="64" column="12" selection-start-line="64" selection-start-column="12" selection-end-line="64" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>Odd</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/MaximumDiffInAnArray.java" />
+        <option value="$PROJECT_DIR$/src/SubarraySum.java" />
+        <option value="$PROJECT_DIR$/src/maxArea.java" />
+        <option value="$PROJECT_DIR$/src/Palindrome_Number.java" />
+        <option value="$PROJECT_DIR$/src/RegexMatch.java" />
+        <option value="$PROJECT_DIR$/src/RegularExpressionMatching.java" />
+        <option value="$PROJECT_DIR$/src/NumberofIslandsII.java" />
+        <option value="$PROJECT_DIR$/src/BricksFallingWhenHit.java" />
+        <option value="$PROJECT_DIR$/src/BS_ArrayHolesFind.java" />
+        <option value="$PROJECT_DIR$/src/OddEvenJump.java" />
+      </list>
+    </option>
+  </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1912" />
-    <option name="y" value="1" />
-    <option name="width" value="1936" />
-    <option name="height" value="1066" />
+    <option name="x" value="321" />
+    <option name="y" value="135" />
+    <option name="width" value="1371" />
+    <option name="height" value="810" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="NewAlgotithmPractice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="NewAlgotithmPractice" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="NewAlgotithmPractice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="NewAlgotithmPractice" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="NewAlgotithmPractice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+    </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../alg4/algs4/target/algs4-1.0.0.0.jar!/" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15104167" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.OddEvenJump">
+    <configuration name="BS_ArrayHolesFind" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BS_ArrayHolesFind" />
+      <module name="NewAlgotithmPractice" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BricksFallingWhenHit" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BricksFallingWhenHit" />
+      <module name="NewAlgotithmPractice" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MaximumDiffInAnArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MaximumDiffInAnArray" />
+      <module name="NewAlgotithmPractice" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NumberofIslandsII" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="NumberofIslandsII" />
+      <module name="NewAlgotithmPractice" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OddEvenJump" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="OddEvenJump" />
+      <module name="NewAlgotithmPractice" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.OddEvenJump" />
+        <item itemvalue="Application.BS_ArrayHolesFind" />
+        <item itemvalue="Application.BricksFallingWhenHit" />
+        <item itemvalue="Application.NumberofIslandsII" />
+        <item itemvalue="Application.MaximumDiffInAnArray" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="173c3443-f6ff-4731-b36f-eaf4c2493a1b" name="Default Changelist" comment="" />
+      <created>1556140628635</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1556140628635</updated>
+      <workItem from="1556140630299" duration="963000" />
+      <workItem from="1556564050802" duration="3563000" />
+      <workItem from="1556769534009" duration="1826000" />
+      <workItem from="1557257626907" duration="1160000" />
+      <workItem from="1557265797852" duration="30000" />
+      <workItem from="1557269110299" duration="7000" />
+      <workItem from="1558388656362" duration="1987000" />
+      <workItem from="1558475745486" duration="3121000" />
+      <workItem from="1558993432756" duration="666000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="13323000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="54" y="-8" width="1874" height="1096" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17438105" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49958983" weight="0.3290735" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49958983" weight="0.428115" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Style Checker" order="10" />
+      <window_info anchor="bottom" id="Terminal" order="11" />
+      <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.5004102" side_tool="true" visible="true" weight="0.42741117" />
+      <window_info anchor="bottom" id="Messages" order="13" weight="0.32986626" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Theme Preview" order="4" />
+      <window_info anchor="right" id="Maven" order="5" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Database" order="8" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/NumberofIslandsII.java</url>
+          <line>82</line>
+          <properties />
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/BricksFallingWhenHit.java</url>
+          <line>110</line>
+          <properties />
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/OddEvenJump.java</url>
+          <line>39</line>
+          <properties />
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/OddEvenJump.java</url>
+          <line>189</line>
+          <properties />
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/OddEvenJump.java</url>
+          <line>41</line>
+          <properties />
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/OddEvenJump.java</url>
+          <line>247</line>
+          <properties />
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/SubarraySum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Palindrome_Number.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/RegexMatch.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/RegularExpressionMatching.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-704">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/graph/Digraph.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="103">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/add_Two_Numbers.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/maxArea.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MaximumDiffInAnArray.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="13" column="7" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/NumberofIslandsII.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="11" column="8" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/BS_ArrayHolesFind.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1364">
+          <caret line="62" selection-start-line="62" selection-end-line="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/BricksFallingWhenHit.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1408">
+          <caret line="64" column="12" selection-start-line="64" selection-start-column="12" selection-end-line="64" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/OddEvenJump.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="194">
+          <caret line="245" column="38" selection-start-line="245" selection-start-column="38" selection-end-line="245" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
   </component>
   <component name="masterDetails">
     <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>NewAlgotithmPractice</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
       <state key="ProjectJDKs.UI">
         <settings>
           <last-edited>11</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
           <splitter-proportions>
             <option name="proportions">
               <list>

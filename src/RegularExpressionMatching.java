@@ -2,7 +2,8 @@ import java.util.Iterator;
 import java.util.Stack;
 import java.util.NoSuchElementException;
 
-import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.Assert.assertEquals;
+
 
 class RegularExpressionMatching {
     private class Bag<Item> implements Iterable<Item>{

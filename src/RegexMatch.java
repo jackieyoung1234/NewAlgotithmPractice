@@ -4,7 +4,7 @@ import graph.DirectedDFS;
 import java.util.Stack;
 import edu.princeton.cs.algs4.Bag;
 
-import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.Assert.assertEquals;
 
 public class RegexMatch {
     private char[] re;

@@ -241,10 +241,15 @@ public class OddEvenJump {
         }
     }
     public static void main(String[] args){
+        Stack<Integer> sk = new Stack<>();
+        sk.push(null);
+        System.out.println(sk.isEmpty());
+        System.out.println(sk.pop());
         int i = 0;
         int r = 6-(i++);
         OddEvenJump oej = new OddEvenJump();
         int res = oej.oddEvenJumps(new int[]{9,3,6,8,3,12,10});
+        res = oej.oddEvenJumps(new int[]{1,2,3,2,1,4,4,5});
         res = oej.oddEvenJumps(new int[]{2,3,1,1,4});
         res = oej.oddEvenJumps(new int[]{10,13,12,14,15});
         res = oej.oddEvenJumps(new int[]{5,1,3,4,2});

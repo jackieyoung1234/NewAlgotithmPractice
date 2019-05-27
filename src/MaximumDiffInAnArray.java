@@ -1,4 +1,4 @@
-import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.Assert.assertEquals;
 
 public class MaximumDiffInAnArray {
     public int maxDifference(int[] arr){
