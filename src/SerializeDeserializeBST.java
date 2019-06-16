@@ -61,6 +61,32 @@ public class SerializeDeserializeBST {
     // Decodes your encoded data to tree.
     public TreeNode deserialize(String data) {
         if(data.length()==0) return null;
+        Stack<TreeNode> sk = new Stack<>();
+        int[] ptr = new int[]{0,data.length()-2};
+        TreeNode pre = getNext(ptr,data);
+        TreeNode root = pre;
+        TreeNode cur = null;
+        sk.push(pre);
+        while(hasNext(ptr)){
+            cur = getNext(ptr,data);
+            while(cur.val>pre.val&&!sk.isEmpty()&&cur.val>sk.peek().val) pre = sk.pop();
+
+            if(cur.val<pre.val)  pre.left=cur ;
+            else pre.right=cur;
+            pre =  cur;
+            sk.push(pre);
+        }
+        return root;
+    }
+    private TreeNode getNext(int[] ptr, String data){
+        return new TreeNode(((int)(data.charAt(ptr[0]++))<<16)+(int)(data.charAt(ptr[0]++)));
+    }
+    private boolean hasNext(int[] ptr){
+        return ptr[0]<=ptr[1];
+    }
+
+    public TreeNode deserializeRecursive(String data) {
+        if(data.length()==0) return null;
         //todo: int[] data = getData(data.getBytes("UTF-8"));
         return deSHelper(getData(data),new int[1],Integer.MIN_VALUE,Integer.MAX_VALUE);
         //try{
@@ -97,10 +123,10 @@ public class SerializeDeserializeBST {
         cnt[0]=0;
         TreeNode cur = null;
         while(!sk.isEmpty()){
-           cur = sk.poll();
-           cnt[0]++;
-           cur.left = process(s);
-           cur.right = process(s);
+            cur = sk.poll();
+            cnt[0]++;
+            cur.left = process(s);
+            cur.right = process(s);
             if(cur.left!=null) {
                 sk.offer(cur.left);
             };
@@ -114,7 +140,7 @@ public class SerializeDeserializeBST {
         if(!s.hasNext()) return null;
         String ss = s.next();
         if(ss.equals("null")){
-           return null;
+            return null;
         }
         int res = 0,ptr =0;
         while(ptr<ss.length()){
@@ -134,13 +160,13 @@ public class SerializeDeserializeBST {
             q.offer(res);
             wr.write(""+res.val);
             while(!q.isEmpty()){
-               tt = q.poll();
-               if(tt.left==null){
-                  wr.write(",null");
-               }else{
-                   wr.write(","+tt.left.val);
-                   q.offer(tt.left);
-               }
+                tt = q.poll();
+                if(tt.left==null){
+                    wr.write(",null");
+                }else{
+                    wr.write(","+tt.left.val);
+                    q.offer(tt.left);
+                }
                 if(tt.right==null){
                     wr.write(",null");
                 }else{
@@ -154,18 +180,18 @@ public class SerializeDeserializeBST {
         wr.close();
     }
     public static void main(String[] args) throws Exception{
-       SerializeDeserializeBST sd = new SerializeDeserializeBST();
-       //TreeNode t10 = new TreeNode(10);
-       // TreeNode t5 = new TreeNode(5);
-       // TreeNode t3 = new TreeNode(3);
-       // TreeNode t7 = new TreeNode(7);
-       // TreeNode t15 = new TreeNode(15);
-       // t10.left = t5;
-       // t5.left = t3;
-       // t5.right = t7;
-       // t10.right = t15;
-       // String s = sd.serialize(t10);
-       // TreeNode t10d = sd.deserialize(s);
+        SerializeDeserializeBST sd = new SerializeDeserializeBST();
+        //TreeNode t10 = new TreeNode(10);
+        // TreeNode t5 = new TreeNode(5);
+        // TreeNode t3 = new TreeNode(3);
+        // TreeNode t7 = new TreeNode(7);
+        // TreeNode t15 = new TreeNode(15);
+        // t10.left = t5;
+        // t5.left = t3;
+        // t5.right = t7;
+        // t10.right = t15;
+        // String s = sd.serialize(t10);
+        // TreeNode t10d = sd.deserialize(s);
         Scanner failedCase = new Scanner(new File("input/SerializeDesirializeBST.txt"));
         failedCase.useDelimiter("\\s|,|\\[|]");
         int[] nodenumcnt = new int[1];
