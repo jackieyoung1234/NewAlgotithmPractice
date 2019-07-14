@@ -1,0 +1,125 @@
+import java.util.HashMap;
+
+public class EvaluateDivision {
+//    a b  2           a--> b,2  b-->b,1
+//    c d  3	     c--> d,3  d-->d,1
+//    1:  get o1 == null  and get o2 ==null
+//    	put: o1 : o2,val   put o2: o2,val
+//    2:  get o1 ==null,  get o2!=null
+//    	set(o1,o2,val) 
+//    3:  get o1 !=null,   get o2==null     a b 2,    a c 3
+//        set(o2,o1,1/val) 
+//    4:  get o2 !=null, get o2!=null    a b 2, c d 3
+//		1.  a c    set(a,c,4)  
+//       				a: b,2	a/c = (2*b)/(3*d) = 4
+//				c: d,3
+//				set(b,d,(1/2)*4*3)
+//					b: b,1
+//					todo
+//					getP(b) == b
+//					put b->d,6
+//					return 2	
+//				put: a-> getP(b),2* return 2  
+//				return 2
+//		2.  a d    set(a,d,4)
+//				a: b,2
+//				d: d,1
+//				getP(a) !=a
+//				set(b,d,(1/2)*4*1)
+//					b: b1
+//					getP(b) == b			
+//					put b->d,2
+//					return 6
+//				put:a -> getP(b), 2* return  
+//		3.  b c    set(b,c,4)
+//				b: b,1
+//				c: d,3
+//				getP(b)	== b
+//					put b->c,3*4 		
+//					return 4
+//		4.  b d    set(b,d,4)
+//				b: b,1
+//				d: d,1
+//				getP(b) == b
+//					put b->d,1*4
+//					return 4
+//
+//    o1!=p   o2!=p  
+//    a  c   4    a, findp =  b,2  c findp = d,3    b!=d,   
+//			a/c = 4 = 2b/c	 
+//			    set(a,c,4){
+//				a --> b,2
+//				set(b,c,4/2) 
+//				???todo path compresssion
+//			    }
+//    			    set(b,c,4/2){
+//				b --> b,1
+//				put:b --> c,4/2
+//				}
+    
+    private class SV{
+	String pa;
+	double r;// this/pa = r
+	public SV(String s, double r){
+	    this.pa = s;
+	    this.r = r;
+	}
+    }
+//    a  b,3
+//    b  e,3
+//    e  e,1
+    private SV getParent(HashMap<String,SV> hm,String s){
+	SV pas = hm.get(s);
+	if(pas==null) return null;
+	if(!s.equals(pas.pa)){
+	    SV ppas = getParent(hm,pas.pa);
+	    return new SV(ppas.pa, pas.r*ppa.r);
+	}
+	return pas;
+    }
+    private double set(HashMap<String,SV> hm, String s1, String s2,double d){
+	//todo
+	SV pa1 = getParent(hm,s1);
+	SV pa2 = getParent(hm,s2);
+	if(pa1.pa.equals(s1)){
+	    double newd = pa2.r*d;
+	    hm.put(s1,new SV(pa2.pa,newd);
+	    return newd;
+	}else{
+	    double newd = pa1.d*set(hm,pa1.pa,pa2.pa,(1/pa1.r)*pa2.r*d);
+	    hm.put(s1,new SV(pa2.pa,newd));
+	    return newd;
+	}
+    }
+    
+    public double[] calcEquation(String[][] equations, double[] values, String[][] queries){
+	HashMap<String,SV> hm = new HashMap<>();	
+	double[] res = new double[queries.length];
+	String o1=null, o2=null;
+	SV so1 = null, so2 = null;
+	for(int i=0;i<values.length;i++){
+	    o1 = equations[i][0]:
+	    o2 = equations[i][1]:
+	    so1 = hm.get(o1);
+	    so2 = hm.get(o2);
+	    if(so1==null&&so2==null){
+		hm.put(o1,new SV(o2,values[i]));
+		hm.put(o2,new SV(o2,1.0));
+	    }else if(so1==null){
+		hm.put(o1,new SV(o2,values[i]));
+	    }else if(so2==null){
+		hm.put(o2,new SV(o1,1/values[i]));
+	    }else{
+		set(hm,o1,o2,values[i]);
+	    }
+	}
+	for(int i=0;i<queries.length;i++){
+	    so1 = getParent(hm,queries[i][0]);
+	    so2 = getParent(hm,queries[i][1]);
+	    if(so1==null||so2==null) res[i]  = -1.0;
+	    else if(!so1.pa.equals(so2.pa)) res[i] = -1.0;
+	    else res[i] = so1.r/so2.r;
+	}
+	return res;
+    }
+}

@@ -13,6 +13,8 @@ public class Map_Consumer_BIFunction {
         }
     }
     public void test(){
+        HashMap<String, Integer> hm2 = new HashMap<>();
+        hm2.computeIfPresent("a",(k,v)->v+1);
         HashMap<Double, ArrayList<Pair>> m= new HashMap<>();
         m.computeIfAbsent(1.0,list->new ArrayList<Pair>()).add(new Pair("a"));
         m.computeIfAbsent(2.0,list->new ArrayList<Pair>()).add(new Pair("b"));

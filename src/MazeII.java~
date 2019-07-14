@@ -1,0 +1,3 @@
+public class MazeII {
+    public int shortestDistance(int[][] maze, int[] start, int dest){}
+}
