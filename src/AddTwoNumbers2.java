@@ -1,3 +1,4 @@
+import java.util.LinkedList;
 import java.util.Stack;
 
 public class AddTwoNumbers2 {
@@ -149,6 +150,9 @@ public class AddTwoNumbers2 {
   return pre;
  }
  public static void main(String[] args){
+        LinkedList<Integer>[] kk = new LinkedList[2];
+        kk[0] = new LinkedList<>();
+        kk[0].add(1);
         AddTwoNumbers2 atn2 = new AddTwoNumbers2();
         ListNode res = atn2.addTwoNumbers(AddOne.construct(98),AddOne.construct(2));
         res = atn2.addTwoNumbers(AddOne.construct(9),AddOne.construct(2));

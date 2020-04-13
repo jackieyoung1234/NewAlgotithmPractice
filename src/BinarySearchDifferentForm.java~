@@ -1,7 +1,5 @@
 import java.util.Arrays;
 
-import static org.junit.Assert.assertEquals;
-
 public class BinarySearchDifferentForm {
     /** note :
      * only first >/>=, and   last </<= should use mutant bsearch
@@ -26,7 +24,7 @@ public class BinarySearchDifferentForm {
            if(comp>=0) hi = mid-1;
            else lo = mid;
        }
-       return arr[lo]<target?lo:-1;
+       return arr[hi]<target?lo:-1;
     }
 
     /**
@@ -77,100 +75,136 @@ public class BinarySearchDifferentForm {
         int test = Arrays.binarySearch(new int[]{1,3,5,7},4);
         test = Arrays.binarySearch(new int[]{1,3,5,7},8);
         test = Arrays.binarySearch(new int[]{1,3,5,7},0);
-        assertEquals(findLastIndexSmallerThan(new int[]{
+        int res = findLastIndexSmallerThan(new int[]{
                 2,2,3,3,4
                 },
                 5
-                ),4);
+                );
 
-        assertEquals(findLastIndexSmallerThan(new int[]{
+        res = findLastIndexSmallerThan(new int[]{
                         2,2,3,3,
                 },
                 5
-        ),3);
-        assertEquals(findLastIndexSmallerThan(new int[]{
+        );
+        res = findLastIndexSmallerThan(new int[]{
                         2,2,3,3,4
                 },
                 1
-        ),-1);
-        assertEquals(findLastIndexSmallerThan(new int[]{
+        );
+        res = findLastIndexSmallerThan(new int[]{
                         2,2,3,3,
                 },
                 1
-        ),-1);
-        assertEquals(findLastIndexSmallerThan(new int[]{
+        );
+        res = findLastIndexSmallerThan(new int[]{
                         2,2,3,3,
                 },
                 3
-        ),1);
-        assertEquals(findLastIndexSmallerThan(new int[]{
+        );
+        res = findLastIndexSmallerThan(new int[]{
                         2,2,2,3,3,
                 },
                 3
-        ),2);
+        );
 
 
 
-        assertEquals(findLastIndexLargerThan(new int[]{
+        res = findLastIndexLargerThan(new int[]{
                         2,2,3,3,4
                 },
                 5
-        ),5);
-        assertEquals(findLastIndexLargerThan(new int[]{
+        );
+        res = findLastIndexLargerThan(new int[]{
                         2,2,3,3,
                 },
                 5
-        ),4);
-        assertEquals(findLastIndexLargerThan(new int[]{
+        );
+        res = findLastIndexLargerThan(new int[]{
                         2,2,3,3,4
                 },
                 1
-        ),4);
-        assertEquals(findLastIndexLargerThan(new int[]{
+        );
+        res = findLastIndexLargerThan(new int[]{
                         2,2,3,3,
                 },
                 1
-        ),3);
-        assertEquals(findFirstIndexSmallerThan(new int[]{
-                        2,2,3,3,4
-                },
-                5
-        ),0);
-        assertEquals(findFirstIndexSmallerThan(new int[]{
-                        2,2,3,3,4
-                },
-                1
-        ),-1);
-        assertEquals(findFisrtIndexLargerThan(new int[]{
-                        2,2,3,3,4
-                },
-                5
-        ),5);
-        assertEquals(findFisrtIndexLargerThan(new int[]{
-                        2,2,3,3,
-                },
-                5
-        ),4);
-        assertEquals(findFisrtIndexLargerThan(new int[]{
-                        2,2,3,3,4
-                },
-                1
-        ),0);
-        assertEquals(findFisrtIndexLargerThan(new int[]{
-                        2,2,3,3,
-                },
-                1
-        ),0);
-        assertEquals(findFisrtIndexLargerThan(new int[]{
+        );
+        res = findLastIndexLargerThan(new int[]{
                         2,2,3,3,
                 },
                 2
-        ),2);
-        assertEquals(findFisrtIndexLargerThan(new int[]{
+        );
+        res = findLastIndexLargerThan(new int[]{
                         2,2,2,3,3,
                 },
                 2
-        ),3);
+        );
+
+
+
+
+        res = findFirstIndexSmallerThan(new int[]{
+                        2,2,3,3,4
+                },
+                5
+        );
+        res = findFirstIndexSmallerThan(new int[]{
+                        2,2,3,3,
+                },
+                5
+        );
+        res = findFirstIndexSmallerThan(new int[]{
+                        2,2,3,3,4
+                },
+                1
+        );
+        res = findFirstIndexSmallerThan(new int[]{
+                        2,2,3,3,
+                },
+                1
+        );
+        res = findFirstIndexSmallerThan(new int[]{
+                        2,2,3,3,
+                },
+                2
+        );
+        res = findFirstIndexSmallerThan(new int[]{
+                        2,2,2,3,3,
+                },
+                2
+        );
+
+
+        res = findFisrtIndexLargerThan(new int[]{
+                        2,2,3,3,4
+                },
+                5
+        );
+        res = findFisrtIndexLargerThan(new int[]{
+                        2,2,3,3,
+                },
+                5
+        );
+        res = findFisrtIndexLargerThan(new int[]{
+                        2,2,3,3,4
+                },
+                1
+        );
+        res = findFisrtIndexLargerThan(new int[]{
+                        2,2,3,3,
+                },
+                1
+        );
+        res = findFisrtIndexLargerThan(new int[]{
+                        2,2,3,3,
+                },
+                2
+        );
+        res = findFisrtIndexLargerThan(new int[]{
+                        2,2,2,3,3,
+                },
+                2
+        );
     }
 
 }

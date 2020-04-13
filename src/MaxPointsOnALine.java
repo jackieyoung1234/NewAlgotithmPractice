@@ -3,66 +3,49 @@ import graph.Point;
 import java.util.HashMap;
 
 public class MaxPointsOnALine {
-    private class Slope{
-        int xv;
-        int yv;
-        String str;
-        //x means delta x, y means delta y
-        //x==0 && y == 0: overlap is guaranteed not to appear
-        public Slope(int x, int y){
-            int gcd = getgcd(x,y);
-            this.xv = x/gcd;
-            this.yv = y/gcd;
-            str = new StringBuilder().append(xv).append('.').append(yv).toString();
-        }
 
-        @Override
-        public int hashCode(){
-            return  str.hashCode();
-        }
-        @Override
-        public boolean equals(Object sl2){
-            Slope s2 = (Slope) sl2;
-            return this.xv==s2.xv && this.yv==s2.yv;
-        }
-    }
-    private static int getgcd(int x, int y){
-            if(y==0) return x;
-            return getgcd(y,x%y);
-    }
-    public int maxPoints(Point[] points) {
+    public int maxPoints(int[][] points) {
         int len = points.length;
-        if(len<=1) return len;
-        int dx = 0,  dy = 0, dup = 0, maxcnt2n = 0, cntthis=0 ;
-        Slope cs = null;
-        HashMap<Slope, Integer> hm = new HashMap<>();
-        int res = 0;
+        if(len<=2) return len;
+        int res=0;
+        double slope;
         for(int i=0;i<len;i++){
+            HashMap<Double,Integer> scnt = new HashMap<>();
+            int vertical = 0, dup = 1,curres=0;
             for(int j=i+1;j<len;j++){
-                dx = points[j].x - points[i].x;
-                dy = points[j].y - points[i].y;
-                if(dx == 0 && dy == 0){
+                int dx = points[j][0]-points[i][0];
+                int dy = points[j][1]-points[i][1];
+                if(dx==0&&dy==0) {
                     dup++;
                     continue;
+                }else if(dx==0){
+                    vertical++;
+                    continue;
+                }else{
+                    int gcd = gcd(dx,dy);
+                    dy/=gcd;
+                    dx/=gcd;
+                    slope = dy/(double)dx;
+                    int cnt = scnt.getOrDefault(slope,0)+1;
+                    scnt.put(slope,cnt);
+                    curres = Math.max(cnt,curres);
                 }
-                cs = new Slope(dx,dy);
-                cntthis = hm.getOrDefault(cs,0)+1;
-                maxcnt2n = Math.max(maxcnt2n,cntthis);
-                hm.put(cs,cntthis);
             }
-            res = Math.max(res,maxcnt2n+dup+1);
-            maxcnt2n = 0;
-            dup = 0;
-            hm.clear();
+            res = Math.max(res,curres+dup);
+            res = Math.max(res,vertical+dup);
         }
         return res;
     }
+    private int gcd(int dx, int dy){
+        if(dy==0) return dx;
+        return gcd(dy,dx%dy);
+    }
     public static void main(String[] args){
-       Point p1 = new Point(1,1);
-       Point p2 = new Point(2,2);
-       Point p3 = new Point(3,3);
-       Point[] pa = new Point[]{p1,p2,p3};
        MaxPointsOnALine ma = new MaxPointsOnALine();
-       int res = ma.maxPoints(pa);
+       int res = ma.maxPoints(new int[][]{
+               {2,3},
+               {3,3},
+               {-5,3}
+       });
     }
 }
